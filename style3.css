@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+body
+{
+  background: url(bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.icons
+{
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 55%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.icons img
+{
+  margin-left: 38px;
+  margin-bottom: 20px;
+  height:30px; 
+  cursor: pointer;
+}
+.icons h6
+{
+  margin-left: 22px;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+}
+.taskbar
+{
+  background-color: #000;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  z-index: 110;
+  justify-content: left;
+}
+.taskbar img
+{
+  margin: 6px;
+  margin-left: 10px;
+  margin-right: 15px;
+  height: 20px;
+  cursor: pointer;
+}
+.taskbar .mic
+{
+  margin: 6px;
+  margin-left: -20px;
+  margin-right: 15px;
+  height: 20px;
+  cursor: pointer;
+}
+.taskbar input
+{
+  border: none;
+  outline: none;
+}
+.taskbar input::placeholder
+{
+  font-size: 13px;
+  color: #111;
+}
+.startmenu
+{
+  position: absolute; 
+  bottom: -650px;
+  width: 100%;
+  text-align: left;
+  transition: 0.2s;
+}
+.startmenu img
+{
+  height: 400px;
+  cursor: pointer;
+}
+.right
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 20%;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+}
+.right img
+{
+  height: 90%;
+  width: 100%;
+  cursor: pointer;
+}
